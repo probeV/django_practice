@@ -15,3 +15,14 @@ app.config_from_object(
 )
 
 app.autodiscover_tasks()
+
+
+# app.conf.timezone = 'Asia/Seoul'
+
+# app.conf.beat_schedule = {
+#     "test-periodic-job": {
+#         "task": "api.tasks.test_periodic_task",
+#         "schedule": crontab(minute="*")
+#     }
+
+# }
